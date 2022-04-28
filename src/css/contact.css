@@ -1,0 +1,27 @@
+.contactContainer {
+  /* border: 1px solid yellow; */
+  margin: 100px 0 150px 0px;
+}
+
+.contact {
+  /* border: 1px solid red; */
+  width: 70%;
+  margin: 10px auto;
+  text-align: left;
+  letter-spacing: 0.15em;
+}
+
+.contact h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contact h1 span {
+  font-size: 30px;
+}
+
+.contact a {
+  color: gold;
+  font-size: 30px;
+  /* text-decoration: none; */
+}

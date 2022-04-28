@@ -1,0 +1,50 @@
+.headerContainer {
+  /* border: 1px solid red; */
+  margin-top: 60px;
+}
+
+.headerContainer h1 {
+  /* border: 1px solid yellow; */
+  /* color: #ccc; */
+  margin: 0;
+  padding: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 70px;
+}
+
+.mainContainer {
+  /* border: 1px solid orange; */
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 60px auto;
+}
+
+.picDisplayContainer {
+  border: 3px solid peru;
+  width: 25%;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.picDisplay {
+  /* border: 1px solid #000; */
+
+  height: 150px;
+  width: 150px;
+  /* background: peru; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.mainContainer h3 {
+  /* border: 1px solid red; */
+  width: 74%;
+  letter-spacing: 0.15em;
+  line-height: 1.5em;
+}
