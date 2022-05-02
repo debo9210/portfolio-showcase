@@ -24,3 +24,79 @@
   /* border-bottom: none; */
   cursor: pointer;
 }
+
+/* .mobileNav ul li {
+  padding: 40px 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+} */
+
+@media only screen and (min-width: 200px) and (max-width: 843px) {
+  .Nav {
+    display: none;
+  }
+
+  .mobileNavContainer {
+    /* border: 1px solid blue; */
+    /* position: absolute; */
+  }
+
+  .mobileNav {
+    display: none;
+  }
+
+  .mobileNavControl {
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mobileNavControl i {
+    color: #eee;
+    font-size: 40px;
+    /* border: 1px solid red; */
+    margin: 20px;
+    font-size: 30px;
+  }
+
+  .mobileNav ul {
+    /* border: 1px solid orange; */
+    border-radius: 8px;
+    /* background: rgb(235, 229, 229); */
+    /* opacity: 0.5; */
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+    /* justify-content: center; */
+    /* 
+    width: 40%;
+    list-style: none;
+    
+     */
+  }
+
+  .mobileNav ul li {
+    /* border: 1px solid pink; */
+    /* color: black; */
+    padding: 20px 15px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .mobileNav ul li:hover {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 821px) {
+  .mobileNavContainer,
+  .mobileNav {
+    display: none;
+  }
+}

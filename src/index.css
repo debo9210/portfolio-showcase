@@ -9,6 +9,7 @@ body {
   color: #eee;
   font-family: 'Roboto', sans-serif;
   font-family: 'Noto Sans', sans-serif;
+  overflow: hidden;
 }
 
 p {

@@ -39,7 +39,7 @@ const Welcome = () => {
   }, []);
 
   return (
-    <div>
+    <div className='main'>
       <header className='headerContainer'>
         <h1 ref={welcomeRef}>Welcome!</h1>
       </header>

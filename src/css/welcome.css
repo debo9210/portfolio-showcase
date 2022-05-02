@@ -48,3 +48,51 @@
   letter-spacing: 0.15em;
   line-height: 1.5em;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 414px) {
+  .headerContainer h1 {
+    /* border: 1px solid yellow; */
+    margin-top: 50px;
+    font-size: 27px;
+  }
+
+  .picDisplayContainer {
+    border: 3px solid peru;
+    width: 25%;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 2px;
+  }
+
+  .picDisplay {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 844px) {
+  .main {
+    /* border: 1px solid orange; */
+    margin-top: 80px;
+    padding: 0;
+  }
+
+  .headerContainer h1 {
+    /* border: 1px solid yellow; */
+    margin-top: 0px;
+    font-size: 37px;
+  }
+
+  .mainContainer {
+    /* border: 1px solid orange; */
+    width: 90%;
+    flex-direction: column;
+    margin: 30px auto;
+  }
+
+  .mainContainer h3 {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+}

@@ -5,23 +5,58 @@
 
 .contact {
   /* border: 1px solid red; */
-  width: 70%;
+  width: 80%;
   margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: left;
   letter-spacing: 0.15em;
 }
 
-.contact h1 {
-  font-size: 40px;
-  font-weight: bold;
+.contactDetails {
+  /* border: 1px solid green; */
+  width: 50%;
+  margin: 10px auto;
 }
 
-.contact h1 span {
-  font-size: 30px;
+.contact a,
+.contactDetails p {
+  color: #eee;
+  font-size: 50px;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
-.contact a {
-  color: gold;
-  font-size: 30px;
-  /* text-decoration: none; */
+.contact a:hover,
+.contactDetails p:hover {
+  font-size: 54px;
+}
+
+.contactDetails p {
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 900px) {
+  .contact {
+    width: 95%;
+    letter-spacing: 0.01em;
+  }
+
+  .contactDetails {
+    /* border: 1px solid orangered; */
+    width: 93%;
+    margin: 20px auto;
+  }
+
+  .contact a {
+    font-size: 40px;
+    /* border: 1px solid green; */
+  }
+
+  .contactDetails p {
+    font-size: 40px;
+    /* border: 1px solid red; */
+  }
 }

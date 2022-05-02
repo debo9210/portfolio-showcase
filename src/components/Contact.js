@@ -6,29 +6,48 @@ const Contact = () => {
   return (
     <div className='contactContainer'>
       <div className='contact'>
-        <h1>
-          Email me:{' '}
+        <div className='contactDetails'>
+          <span>
+            <i
+              class='fa fa-envelope fa-4x'
+              aria-hidden='true'
+              style={{ color: '#1FB3C5' }}
+            ></i>
+          </span>
           <a
             href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=adebowale9210@gmail.com'
             target='_blank'
             rel='noreferrer'
           >
-            adebowale9210@gmail.com
+            Email Me
           </a>
-        </h1>
-        <h1>
-          Connect with me on twitter:{' '}
+        </div>
+        <div className='contactDetails'>
+          <span>
+            <i
+              class='fa fa-twitter-square fa-4x'
+              aria-hidden='true'
+              style={{ color: '#1D9BF0' }}
+            ></i>
+          </span>
           <a
             href='https://twitter.com/debo9210'
             target='_blank'
             rel='noreferrer'
           >
-            {`@debo9210`}
+            Debo9210
           </a>
-        </h1>
-        <h1>
-          Linkedin: <span>Coming soon</span>
-        </h1>
+        </div>
+        <div className='contactDetails'>
+          <span>
+            <i
+              class='fa fa-linkedin-square fa-4x'
+              aria-hidden='true'
+              style={{ color: '#0077B5' }}
+            ></i>
+          </span>
+          <p>Connect </p>
+        </div>
       </div>
     </div>
   );
